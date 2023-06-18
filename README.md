@@ -65,6 +65,4 @@ To deploy the application in your Kubernetes environment, follow these steps:
    kubectl port-forward pod/{prometheus-podID} 9090:9090 -n monitoring
     ```
     You can access the Prometheus interface via http://localhost:9090.
-   ![title](images/prometheus.png)
-
 
